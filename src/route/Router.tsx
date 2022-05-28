@@ -4,7 +4,6 @@ import { Route, Switch} from "react-router-dom";
 import { Login } from "../components/pages/Login";
 import { HomeRoutes } from "./HomeRoutes";
 import { Page404 } from "../components/pages/pagee404";
-// import { NotFound } from "../components/pages/NotFound";
 import { HeaderLayout } from "../components/templates/HeaderLayout";
 
 export const Router: VFC = memo(() => {
